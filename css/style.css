@@ -1,0 +1,992 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*--==== Button ====--*/
+
+.banner-btn {
+    margin-top: 30px;
+}
+
+.button-1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #f1f6f9;
+    font-size: 16px;
+    border: 3px solid #f1f6f9;
+    padding: 10px 30px;
+    transition: all linear .3s;
+    margin-right: 10px;
+}
+
+.button-1:hover {
+    color: #000;
+    background: #f1f6f9;
+    box-shadow: 6px 3px 10px 0px rgba(255, 255, 255, 0.35);
+}
+
+.button-2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #000;
+    font-size: 16px;
+    border: 3px solid #f1f6f9;
+    padding: 10px 30px;
+    transition: all linear .3s;
+    margin-right: 10px;
+    background: #f1f6f9;
+}
+
+.button-2:hover {
+    background: none;
+    color: #f1f6f9;
+    box-shadow: 6px 3px 10px 0px rgba(255, 255, 255, 0.35);
+}
+
+/*--==== Navbar Part Start ====--*/
+
+.navbar-expand-lg .navbar-nav {
+    margin-left: auto;
+    margin-right: 0px !important;
+}
+
+.header {
+    background: #fff;
+    border-bottom: 2px solid #ff0404;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    box-shadow: 6px 3px 10px 0px rgba(255, 4, 4, 0.35);
+}
+
+.header-logo {
+    width: 130px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #000;
+    font-size: 18px;
+    margin-left: 30px;
+    border-bottom: 2px solid transparent;
+    transition: all linear .3s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #000;
+    border-color: #ff0404;
+}
+
+
+/*--==== Banner Part Start ====--*/
+
+.banner-bg {
+    background: url(../img/banner-1.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.banner {
+    width: 100%;
+    height: 95vh
+}
+
+/*--==== Particles-js Part Start ====--*/
+
+#particles-js {
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+    position: relative;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.banner-content .heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 64px;
+    color: #f1f6f9;
+    font-style: italic;
+    font-weight: 700;
+    margin: 0;
+}
+
+.banner-content .sub-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #f1f6f9;
+    margin-bottom: 15px;
+}
+
+.banner-content .sub-heading .typed {
+    color: #ff0404;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.banner-content .paragraph {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #f1f6f9;
+    font-size: 18px;
+}
+
+
+
+/*--==== About Part Start ====--*/
+
+.about {
+    padding: 120px;
+}
+
+.about-first {
+    position: relative;
+    transition: all linear .3s;
+}
+
+.about-first:hover {
+    box-shadow: 3px 5px 12px 0 rgba(0, 0, 0, 0.35);
+}
+
+.about-first::before {
+    content: "";
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: -40px;
+    left: -40px;
+    z-index: -1;
+    border: 3px solid #ff0404;
+    border-radius: 5px;
+    transition: all linear .3s;
+}
+
+.about-first:hover::before {
+    bottom: -30px;
+    left: -30px;
+}
+
+.about-first::after {
+    content: "";
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    z-index: -1;
+    background: #ff0404;
+    border-radius: 5px;
+    transition: all linear .3s;
+}
+
+.about-first:hover::after {
+    top: -30px;
+    right: -30px;
+}
+
+.about-second {
+    margin-left: 40px;
+}
+
+.about-second .heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.about-second .heading::after {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background: #ff0404;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 220px;
+    transform: translateY(-50%);
+}
+
+.about-second .paragraph {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: #666;
+}
+
+.about-second .sub-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: #000;
+    font-style: italic;
+
+}
+
+.about-second .sub-heading span {
+    color: #666;
+}
+
+.icon-box {
+    margin-bottom: 20px;
+}
+
+.icon-box i {
+    width: 35px;
+    height: 35px;
+    color: #666;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #666;
+    line-height: 32px;
+    transition: all linear .3s;
+    margin-right: 15px;
+}
+
+.icon-box i:hover {
+    box-shadow: 2px 4px 7px 0 rgba(0, 0, 0, 0.3);
+    transform: rotate(360deg);
+}
+
+.about-btn .button-1 {
+    color: #000;
+    border: 3px solid #000;
+    transition: all linear .3s;
+}
+
+.about-btn .button-1:hover {
+    color: #fff;
+    background: #000;
+    box-shadow: 2px 4px 7px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+/*--==== Service Part Start ====--*/
+
+
+.service {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #f1f6f9;
+}
+
+
+.service .heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.service .heading::after {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background: #ff0404;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 62%;
+    transform: translateY(-50%);
+}
+
+.service .paragraph {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.service-box {
+    background: #fff;
+    text-align: center;
+    padding: 50px 60px;
+    border-radius: 8px;
+    transition: all linear .3s;
+}
+
+.service-box:hover {
+    box-shadow: 3px 5px 9px 0 rgba(0, 0, 0, 0.25);
+    border-bottom: 3px solid #ff0404;
+    border-left: 3px solid #ff0404;
+    transform: translateY(-10px) translateX(-10px);
+}
+
+.service-box:hover i {
+    color: #ff0404;
+}
+
+.service-box i {
+    font-size: 72px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: all linear .1s;
+    transition-delay: .2s;
+}
+
+.service-box .sub-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.service-box .paragraph {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    padding: 0;
+}
+
+
+
+/*--==== Skill Part Start ====--*/
+
+.skill-bg {
+    padding-top: 80px;
+    padding-bottom: 120px;
+    background: #fff;
+}
+
+
+.skill-bg .heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.skill-bg .heading::after {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background: #ff0404;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 59%;
+    transform: translateY(-50%);
+}
+
+.skill-bg .paragraph {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+
+
+/*--==== Progress Bar Start ====--*/
+
+.skills {
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+.skill-name {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    color: #000;
+    font-style: italic;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 5px 0;
+}
+
+.skill-bar {
+    height: 3px;
+    background: #ddd;
+}
+
+.skill-per {
+    height: 3px;
+    background: #000;
+    width: 0;
+    transition: all linear 2s;
+    position: relative;
+}
+
+.skill-per::before {
+    content: attr(per);
+    position: absolute;
+    color: #000;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+    font-weight: 600;
+}
+
+
+
+/*--==== Portfolio Part Start ====--*/
+
+.portfolio-bg {
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(../img/portfolio-bg.jpg);
+    padding: 100px 0;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+}
+
+.portfolio-bg .heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.portfolio-bg .heading::after {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background: #ff0404;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 63%;
+    transform: translateY(-50%);
+}
+
+.portfolio-bg .paragraph {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+
+.port-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.port-btns li {
+    margin-right: 20px;
+}
+
+.port-btns .port-btn {
+    padding: 10px 30px;
+    border: 3px solid #000;
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+    transition: all linear .3s;
+    background: transparent;
+}
+
+.port-btns .port-btn:hover {
+    background: #000;
+    color: #fff;
+    box-shadow: 2px 4px 7px 0 rgba(0, 0, 0, 0.3);
+}
+
+.port-btns .port-btn:focus {
+    background: #000;
+    color: #fff;
+    outline: none;
+    box-shadow: 2px 4px 7px 0 rgba(0, 0, 0, 0.3);
+}
+
+.port-img {
+    overflow: hidden;
+    position: relative;
+}
+
+.port-img img {
+    width: 100%;
+    height: auto;
+    transition: all linear .3s;
+}
+
+.port-img:hover .port-overlay {
+    -webkit-transition: all linear .4s;
+    transition: all linear .4s;
+    opacity: 0.9;
+}
+
+.port-img:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: all linear .3s;
+
+}
+
+.port-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.port-overlay h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    font-style: italic;
+    padding-top: 100px;
+    -webkit-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+
+
+/*--==== Review Part Start --====*/
+
+.review {
+    padding: 100px 0;
+}
+
+.review .heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 15px;
+
+}
+
+.review .heading::after {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background: #ff0404;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 28%;
+    transform: translateY(-50%);
+}
+
+.review .paragraph {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: #666;
+}
+
+.review .sub-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.review .sub-small-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #ff0404;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+
+.review-box .review-name {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+.review-icon-box {
+    display: inline-block;
+    margin-left: auto;
+}
+
+.review-icon-box i {
+    border: none;
+    padding: 0;
+    color: #ffcc07;
+    margin: 0;
+}
+
+.review-box hr {
+    margin: 0;
+    border: none;
+    height: 2px;
+    background: #ff0404;
+    opacity: 1;
+}
+
+.review-heading-item {
+    background: #f1f6f9;
+    padding: 15px;
+}
+
+.review-box .paragraph {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    color: #666;
+    padding: 15px;
+}
+
+.review-box {
+    border-radius: 8px;
+    box-shadow: 2px 3px 6px 0 rgba(0, 0, 0, 0.3);
+    margin: 0 15px;
+}
+
+
+
+/*--==== Blog Part Start ====--*/
+
+.blog-bg {
+    padding: 100px 0;
+    background: #f1f6f9;
+}
+
+.blog-bg .heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.blog-bg .heading::after {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background: #ff0404;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 61%;
+    transform: translateY(-50%);
+}
+
+.blog-box {
+    padding: 25px;
+    background: #fff;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.blog-img {
+    align-self: center;
+    width: 30%;
+}
+
+.blog-img img {
+    border-radius: 5px;
+}
+
+.blog-content {
+    align-self: center;
+    padding: 30px;
+    width: 70%;
+}
+
+.blog-slider {
+    box-shadow: 2px 8px 16px 0 rgba(0, 0, 0, 0.3);
+}
+
+.blog-content-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.blog-content-date {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #777;
+}
+
+.blog-content-paragraph {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+.blog-content .button-1 {
+    border-color: #000;
+    color: #000;
+}
+
+.blog-content .button-1:hover {
+    color: #fff;
+    background: #000
+}
+
+
+/*--==== Contact Part Start ====--*/
+
+.contact-bg {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.contact-bg .heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.contact-bg .heading::after {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background: #ff0404;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 59%;
+    transform: translateY(-50%);
+}
+
+.get-in-touch {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #666;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+.contact-box {
+    padding: 15px;
+    padding-top: 0;
+    background: #f1f6f9;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: all linear .3s;
+    color: #333;
+}
+
+.contact-box:hover {
+    transform: translateY(-8%);
+}
+
+.contact-box i {
+    font-size: 32px;
+    padding: 20px;
+    box-shadow: 0 0 0 10px rgba(255, 4, 4, 0.32);
+    border-radius: 50%;
+    background: #ff0404;
+    color: #fff;
+    transform: translateY(-50%);
+    margin-bottom: 0;
+}
+
+.contact-box h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.contact-box p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+
+    font-style: italic;
+    font-weight: 400;
+}
+
+.form-group .form-control:placeholder-shown {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    padding-left: 20px;
+}
+
+.form-group .form-control {
+    border: none;
+    border-bottom: 1px solid #666;
+    border-radius: 0px;
+    margin-bottom: 30px;
+}
+
+.form-group textarea {
+    min-height: 100px;
+}
+
+.form-btn  {
+    text-align: center;
+}
+
+.form-btn .button-2  {
+    border-color: #000;
+    background: #000;
+    color: #fff;
+}
+
+.form-btn .button-2:hover  {
+    background: #fff;
+    color: #000;
+}
+
+
+/*--==== Footer Part Start ====--*/
+
+.footer {
+    background: #000;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer p {
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.footer p span {
+    color: #ff0404;
+    font-weight: 700;
+}
+
+
+/*--==== Back To Top Part Start ====--*/
+
+.back-to-top {
+    background: #ff0404;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50%;
+    border: 2px solid #ff0404;
+    transition: all linear .4s;
+}
+
+.back-to-top i {
+    position: absolute;
+    top: 30%;
+    transform: translate(-50%);
+}
+
+.back-to-top:hover {
+    background: transparent;
+    color: #ff0404;
+    border: 2px solid #ff0404;
+}
+
+/* Preloader Css Start */
+#preloader {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+#status {
+    background: url("../img/load.gif");
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 180px;
+    left: 44%;
+    top: 40%;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

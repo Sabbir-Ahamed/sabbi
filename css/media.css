@@ -1,0 +1,543 @@
+@media (max-width: 1199px) {
+    .banner-content .heading {
+        font-size: 54px;
+    }
+
+    .about-first::before {
+        width: 150px;
+        height: 150px;
+        bottom: -30px;
+        left: -30px;
+    }
+
+    .about-first::after {
+        width: 200px;
+        height: 200px;
+        top: -30px;
+        right: -30px;
+    }
+
+    .about-second .heading {
+        font-size: 42px;
+        margin-bottom: 15px;
+    }
+
+    .about-second .paragraph {
+        font-size: 16px;
+    }
+
+    .about-second .sub-heading {
+        font-size: 16px;
+    }
+
+    .about-first:hover::before {
+        bottom: -20px;
+        left: -20px;
+    }
+
+    .about-first:hover::after {
+        top: -20px;
+        right: -20px;
+    }
+
+    .service .heading {
+        font-size: 42px;
+    }
+
+    .service .heading::after {
+        left: 63%;
+    }
+
+    .service .paragraph {
+        font-size: 16px;
+    }
+
+    .service-box i {
+        font-size: 60px;
+    }
+
+    .service-box {
+        padding: 40px;
+    }
+
+    .service-box .sub-heading {
+        font-size: 24px;
+    }
+
+    .skill-bg .heading {
+        font-size: 42px;
+    }
+
+    .skill-bg .heading::after {
+        left: 60%;
+    }
+
+    .skill-bg .paragraph {
+        font-size: 16px;
+    }
+
+    .portfolio-bg .heading {
+        font-size: 42px;
+    }
+
+    .portfolio-bg .heading::after {
+        left: 64%;
+    }
+
+    .port-overlay h4 {
+        padding-top: 70px;
+    }
+
+    .review .heading {
+        font-size: 42px;
+    }
+
+    .review .heading::after {
+        left: 31%;
+    }
+
+    .review .sub-heading {
+        font-size: 24px;
+    }
+
+    .review .sub-small-heading {
+        font-size: 20px;
+    }
+
+    .review .paragraph {
+        font-size: 16px;
+    }
+
+    .contact-bg .heading {
+        font-size: 42px;
+    }
+
+    .get-in-touch {
+        font-size: 20px;
+    }
+
+    .contact-box i {
+        font-size: 28px;
+        padding: 15px;
+    }
+
+    .contact-box h5 {
+        font-size: 22px;
+    }
+
+    .contact-box p {
+        font-size: 15px;
+    }
+
+    .contact-box {
+        padding: 10px;
+        padding-top: 0;
+    }
+
+    .form-group .form-control:placeholder-shown {
+        font-size: 16px;
+    }
+
+}
+
+
+
+@media (max-width: 991px) {
+
+    .navbar-light .navbar-toggler {
+        border: 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        margin-left: auto;
+        margin-right: 0px !important;
+        background: #fff;
+        margin-top: 18px;
+        text-align: center;
+        width: 300px;
+        box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.8);
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 18px;
+        margin-left: 0;
+
+    }
+
+    .navbar-light .navbar-nav .nav-link:focus {
+        background: #fff;
+
+    }
+
+    .about-second .heading {
+        margin-top: 60px;
+    }
+
+    .service .heading {
+        font-size: 36px;
+    }
+
+    .service .heading::after {
+        left: 65%;
+    }
+
+    .skill-bg .heading {
+        font-size: 36px;
+    }
+
+    .portfolio-bg .heading {
+        font-size: 36px;
+    }
+
+    .portfolio-bg .heading::after {
+        left: 65%;
+    }
+
+    .portfolio-bg .paragraph {
+        font-size: 16px;
+    }
+
+    .review .heading {
+        font-size: 36px;
+    }
+
+    .review .heading::after {
+        left: 35%;
+    }
+
+    .review .sub-heading {
+        font-size: 22px;
+    }
+
+    .review .sub-small-heading {
+        font-size: 18px;
+    }
+
+    .blog-bg .heading {
+        font-size: 36px;
+    }
+
+    .blog-content-heading {
+        font-size: 24px;
+    }
+
+    .contact-bg .heading {
+        font-size: 36px;
+    }
+
+    .contact-bg .heading::after {
+        left: 60%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .about {
+        padding: 80px;
+    }
+
+    .about-second {
+        margin-left: 0;
+    }
+
+    .about-second .heading {
+        font-size: 36px;
+    }
+
+    .about-second .heading::after {
+        left: 42%;
+        width: 70px;
+    }
+
+    .service {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .service .heading {
+        font-size: 32px;
+    }
+
+    .service .heading::after {
+        left: 68%;
+        width: 70px;
+    }
+
+    .service .paragraph {
+        margin-bottom: 0;
+    }
+
+    .skill-bg {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    .skill-bg .heading {
+        font-size: 32px;
+    }
+
+    .skill-bg .heading::after {
+        left: 63%;
+        width: 70px;
+    }
+
+    .skill-bg .paragraph {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .portfolio-bg {
+        padding: 60px 0;
+    }
+
+    .portfolio-bg .heading {
+        font-size: 32px;
+    }
+
+    .portfolio-bg .heading::after {
+        left: 70%;
+        width: 70px;
+    }
+
+    .portfolio-bg .paragraph {
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 16px;
+    }
+
+    .port-btns .port-btn {
+        font-size: 14px;
+        padding: 7px 20px;
+    }
+
+    .port-btns li {
+        margin-right: 10px;
+    }
+
+    .review {
+        padding: 60px 0;
+    }
+
+    .review .heading {
+        font-size: 32px;
+    }
+
+    .review .heading::after {
+        left: 44%;
+        width: 70px;
+    }
+
+    .review .sub-heading {
+        font-size: 20px;
+    }
+
+    .review .sub-small-heading {
+        font-size: 16px;
+    }
+
+    .blog-bg {
+        padding: 60px 0;
+    }
+
+    .blog-bg .heading {
+        font-size: 32px;
+    }
+
+    .blog-bg .heading::after {
+        left: 64%;
+        width: 70px;
+    }
+
+    .blog-box {
+        height: 800px;
+        display: block;
+    }
+
+    .blog-img {
+        width: 100%;
+    }
+
+    .blog-content {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .contact-bg {
+        padding: 60px 0;
+    }
+
+    .contact-bg .heading {
+        font-size: 32px;
+    }
+
+    .contact-bg .heading::after {
+        left: 64%;
+        width: 70px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .banner-content .heading {
+        font-size: 48px;
+    }
+
+    .banner-content .sub-heading {
+        font-size: 28px;
+    }
+
+    .banner-content .paragraph {
+        font-size: 16px;
+    }
+
+    .button-1 {
+        padding: 7px 20px;
+    }
+
+    .button-2 {
+        padding: 7px 20px;
+    }
+
+    .about {
+        padding: 50px 30px;
+    }
+
+    .about-first::before {
+        width: 100px;
+        height: 100px;
+        bottom: -25px;
+        left: -25px;
+    }
+
+    .about-first::after {
+        width: 140px;
+        height: 140px;
+        top: -25px;
+        right: -25px;
+    }
+
+    .about-second .heading {
+        font-size: 32px;
+    }
+
+    .about-second .heading::after {
+        left: 65%;
+    }
+
+    .icon-box i {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+        line-height: 28px;
+        margin-right: 10px;
+    }
+
+    .service .heading {
+        font-size: 28px;
+    }
+
+    .service .heading::after {
+        left: 75%
+    }
+
+    .service .paragraph {
+        padding: 0;
+    }
+
+    .skill-bg .heading {
+        font-size: 28px;
+    }
+
+    .skill-bg .heading::after {
+        left: 68%;
+    }
+
+    .skill-bg .paragraph {
+        padding: 0;
+    }
+
+    .portfolio-bg .heading {
+        font-size: 28px;
+    }
+
+    .portfolio-bg .heading::after {
+        left: 77%;
+    }
+
+    .portfolio-bg .paragraph {
+        padding: 0;
+    }
+
+    .port-btns .port-btn {
+        font-size: 11px;
+        padding: 2px 5px;
+    }
+
+    .port-btns li {
+        margin-right: 5px;
+    }
+
+    .mt-xs-0 {
+        margin-top: 0 !important;
+    }
+
+    .mb-xs-0 {
+        margin-bottom: 0 !important;
+    }
+
+    .mb-xs-2 {
+        margin-bottom: 20px !important;
+    }
+
+    .pb-xs-1 {
+        padding-bottom: 5px !important;
+    }
+
+    .port-overlay h4 {
+        padding-top: 40px;
+    }
+
+    .review .heading {
+        font-size: 28px;
+    }
+
+    .review .heading::after {
+        left: 66%;
+        width: 70px;
+    }
+
+    .review .sub-heading {
+        font-size: 18px;
+        color: #444;
+    }
+
+    .review .paragraph {
+        font-size: 15px;
+    }
+
+    .blog-bg .heading {
+        font-size: 28px;
+    }
+
+    .blog-bg .heading::after {
+        left: 70%;
+    }
+
+    .contact-bg .heading {
+        font-size: 28px;
+    }
+
+    .contact-bg .heading::after {
+        left: 70%;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+}
